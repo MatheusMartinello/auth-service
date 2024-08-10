@@ -1,0 +1,7 @@
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: "Postgres2022!"
+    ports:
+      - "5432:5432"
